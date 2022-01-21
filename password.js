@@ -30,15 +30,15 @@ reader.question("Welcome to the password validator.  Please enter a password to 
 
     //console.log(password)
     //checking for special character * in password
-    for(let j = 0; j < password.length; j++) {
-        let x = "*"
-        if(password[j] === x){
-            console.log("failure")
-        }
-        else{
-            console.log("success")
-        }
-    }
+    // for(let j = 0; j < password.length; j++) {
+    //     let x = "*"
+    //     if(password[j] === x){
+    //         console.log("failure")
+    //     }
+    //     else{
+    //         console.log("success")
+    //     }
+    // }
 
 
 	// This line closes the connection to the command line interface.
