@@ -5,19 +5,33 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
-reader.question("Welcome to the password validator.  Please enter a password to validate", function(input){
-	password = input.split(' ');
+reader.question("Welcome to the password validator.  Please enter a password to validate:  ", function(input){
+	password = input.split("");
+    //password1 = password.split(1)  
 	
-	//mathSymbol = tokens[0];
-	//num1 = Number(tokens[1]);
-	//num2 = Number(tokens[2]);
+	//mathSymbol = password[0];
+	//num1 = Number(password[1]);
+	//num2 = Number(password[2]);
+    //num3 = Number(password[3]);
+    //num4 = Number(password[4]);
+    //num5 = Number(password[5]);
+    //num6 = Number(password[6]);
+    //num7 = Number(password[7]);
+    //num8 = Number(password[8]);
+    //num9 = Number(password[9]);
 
-    if(password > 9){
+    
+    if(password.length > 9){
         console.log(`success`)
     }
     else{
         console.log(`failure`)
     }
+
+    //console.log(password)
+
+    
+
 
 	// This line closes the connection to the command line interface.
 	reader.close()
